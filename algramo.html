@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algramo</title>
+  <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="">
+  <style type="text/css">
+
+
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+  }
+
+  div.circulo-eleccion {
+    width: 19%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+  }
+
+  h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+
+
+  textarea,
+  select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 10px;
+  }
+
+  /*-input[type="radio"],-->
+  input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+  } */
+
+  input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+  }
+
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+  }
+
+  button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #66A1FF;
+    font-size: 30px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid ##66A1FF;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }
+
+  fieldset {
+    margin-bottom: 10px;
+    border: none;
+  }
+
+  fieldset.botones {
+    margin-bottom: 30px;
+    border: none;
+  }
+
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  label.light {
+    font-weight: 300;
+    display: inline;
+  }
+
+  .number {
+    background-color: #66A1FF;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 100%;
+  }
+
+  @media screen and (min-width: 480px) {
+
+    form {
+      max-width: 480px;
+    }
+
+  }
+
+  </style>
+</head>
+<body>
+
+    <form action="index.html" method="post">
+
+
+      <div align="center">
+      <a href="https://algramo.com/en/home/"><img width='300' height='60' src='algramo.png'/></a>
+      </div>
+
+<!-- Boton con iconos-->
+      <fieldset>
+        <legend>
+          <span class="number">1</span>
+          Bienvenido a tu comedor
+        </legend>
+      </fieldset>
+
+      <button type="submit" style="background-image: url(auto.svg); background-repeat-x: no-repeat;background-size: 60px 60px">Automático</button>
+      <button type="submit" style="background-image: url(team.svg); background-repeat-x: no-repeat; no-repeat;background-size: 60px 60px">Trabajo</button>
+      <button type="submit" style="background-image: url(descanso.svg); background-repeat-x: no-repeat; no-repeat;background-size: 60px 60px">Descanso</button>
+      <button type="submit" style="background-image: url(off.svg); background-repeat-x: no-repeat; no-repeat;background-size: 60px 60px">Apagado</button>
+      <button type="submit"style="background-image: url(demo.svg); background-repeat-x: no-repeat; no-repeat;background-size: 60px 60px">Demo</button>
+
+
+      <fieldset>
+
+        <legend>
+          <span class="number">2</span>
+          Agradecemos tu Feedback
+        </legend>
+<!-- Luminosidad -->
+         <h4>Luminosidad:</h4>
+
+         <div>
+           <div class="circulo-eleccion">
+             <img src="1-01.svg" width="50" height="50"/>
+           </div>
+
+           <div class="circulo-eleccion">
+             <img src="2-01.svg" width="50" height="50"/>
+           </div>
+
+           <div class="circulo-eleccion">
+             <img src="3-01.svg" width="50" height="50"/>
+           </div>
+
+           <div class="circulo-eleccion">
+             <img src="4-01.svg" width="50" height="50"/>
+           </div>
+
+           <div class="circulo-eleccion">
+             <img src="5-01.svg" width="50" height="50"/>
+           </div>
+         </div>
+
+         <div>
+           <div style="width: 49%; display: inline-block; ">
+             Muy insatisfecho
+           </div>
+
+           <div style="width: 50%; text-align: right; display: inline-block; ">
+             Muy satisfecho
+           </div>
+         </div>
+
+         <!-- numeros de radios para satisfaccion con luminosidad -->
+         <div>
+           <div class="circulo-eleccion">
+             <label for="luminosity-satisfaction-1" class="light"></label>
+           </div>
+
+           <div class="circulo-eleccion">
+             <label for="luminosity-satisfaction-2" class="light"></label>
+           </div>
+
+           <div class="circulo-eleccion">
+             <label for="luminosity-satisfaction-3" class="light"></label>
+           </div>
+
+           <div class="circulo-eleccion">
+             <label for="luminosity-satisfaction-4" class="light"></label>
+           </div>
+
+           <div class="circulo-eleccion">
+             <label for="luminosity-satisfaction-5" class="light"></label>
+           </div>
+         </div>
+
+         <!-- radios para satisfaccion con Luminosidad-->
+         <div>
+           <div class="circulo-eleccion">
+             <input id="luminosity-satisfaction-1" type="radio" value="1" name="feedback" />
+           </div>
+
+           <div class="circulo-eleccion">
+             <input id="luminosity-satisfaction-2" type="radio" value="2" name="feedback" />
+           </div>
+
+           <div class="circulo-eleccion">
+             <input id="luminosity-satisfaction-3" type="radio" value="3" name="feedback" />
+           </div>
+
+           <div class="circulo-eleccion">
+             <input id="luminosity-satisfaction-4" type="radio" value="4" name="feedback" />
+           </div>
+
+           <div class="circulo-eleccion">
+             <input id="luminosity-satisfaction-5" type="radio" value="5" name="feedback" />
+           </div>
+         </div>
+
+<!-- numeros de radios para satisfaccion con temperatura-->
+         <h4>Temperatura:</h4>
+
+         <div>
+           <div class="circulo-eleccion">
+             <img src="1-01.svg" width="50" height="50"/>
+           </div>
+
+           <div class="circulo-eleccion">
+             <img src="2-01.svg" width="50" height="50"/>
+           </div>
+
+           <div class="circulo-eleccion">
+             <img src="3-01.svg" width="50" height="50"/>
+           </div>
+
+           <div class="circulo-eleccion">
+             <img src="4-01.svg" width="50" height="50"/>
+           </div>
+
+           <div class="circulo-eleccion">
+             <img src="5-01.svg" width="50" height="50"/>
+           </div>
+         </div>
+
+         <div>
+           <div style="width: 49%; display: inline-block; ">
+             Muy insatisfecho
+           </div>
+
+           <div style="width: 50%; text-align: right; display: inline-block; ">
+             Muy satisfecho
+           </div>
+         </div>
+<!-- radios para satisfaccion con temperatura-->
+         <div>
+           <div class="circulo-eleccion">
+             <input id="luminosity-satisfaction-1" type="radio" value="1" name="feedback" />
+           </div>
+
+           <div class="circulo-eleccion">
+             <input id="luminosity-satisfaction-2" type="radio" value="2" name="feedback" />
+           </div>
+
+           <div class="circulo-eleccion">
+             <input id="luminosity-satisfaction-3" type="radio" value="3" name="feedback" />
+           </div>
+
+           <div class="circulo-eleccion">
+             <input id="luminosity-satisfaction-4" type="radio" value="4" name="feedback" />
+           </div>
+
+           <div class="circulo-eleccion">
+             <input id="luminosity-satisfaction-5" type="radio" value="5" name="feedback" />
+           </div>
+         </div>
+<!-- feedback cliente-->
+        <h4>¿Tienes algún comentario para nosotros?</h4>
+        <textarea id="bio" name="user_bio" style="margin: 0px 0px 9.98438px; width: 423px; height: 126px;"></textarea>
+      </fieldset>
+      <fieldset>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+
+</body>
+</html>
